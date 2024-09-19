@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf5ff;
+}
+
+.containers{
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.logo-registers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+
+
+.logo-registers img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    margin-left: 600px;
+
+}
+
+
+
+.registration-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-left: 4px;
+    align-items: center;
+
+}
+.registration-card {
+
+    border: 1px solid #339966;
+    border-top: 15px solid #339966;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 35px;
+    background-color: white;
+}
